@@ -21,5 +21,7 @@
 	"item.mightymaking.ender_sword": "Ender Sword",
 	
 	"advancements.adventure.hermes_boots.title": "Finders Keepers!",
-    "advancements.adventure.hermes_boots.description": "Retrieve a pair of Boots of Hermes"
+    "advancements.adventure.hermes_boots.description": "Retrieve a pair of Boots of Hermes",
+
+	"block.mightymaking.ender_shard_block": "Block of Ender Shards"
 }

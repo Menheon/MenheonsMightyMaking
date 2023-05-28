@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "mightymaking:block/ender_shard_block"
+        }
+    }
+}

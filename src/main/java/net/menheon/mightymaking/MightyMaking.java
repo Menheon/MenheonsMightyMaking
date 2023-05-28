@@ -1,6 +1,6 @@
 package net.menheon.mightymaking;
 
-import com.mojang.logging.LogUtils;
+import net.menheon.mightymaking.block.ModBlocks;
 import net.menheon.mightymaking.item.ModCreativeModeTab;
 import net.menheon.mightymaking.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -12,17 +12,16 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
 
 @Mod(MightyMaking.MOD_ID)
 public class MightyMaking {
   public static final String MOD_ID = "mightymaking";
-  private static final Logger LOGGER = LogUtils.getLogger();
 
   public MightyMaking() {
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
     ModItems.register(modEventBus);
+    ModBlocks.register(modEventBus);
 
     // Register the commonSetup method for modloading
     modEventBus.addListener(this::commonSetup);
@@ -41,6 +40,9 @@ public class MightyMaking {
     if (event.getTab() == ModCreativeModeTab.MIGHTY_MAKING_TAB) {
       ModItems.ITEMS.getEntries().forEach(item -> {
         event.accept(item);
+      });
+      ModBlocks.BLOCKS.getEntries().forEach(block -> {
+        event.accept(block);
       });
     }
   }
