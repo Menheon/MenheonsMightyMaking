@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "CDC",
+        " C "
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "mightymaking:charged_ender_eye"
+        }
+    },
+    "result": {
+        "item": "mightymaking:ender_diamond",
+        "count": 1
+    }
+}

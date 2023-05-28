@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FGA",
+        "G G",
+        "EGW"
+    ],
+    "key": {
+        "G": {
+            "item": "mightymaking:gold_string"
+        },
+        "F": {
+            "item": "mightymaking:fire_orb"
+        },
+        "A": {
+            "item": "mightymaking:air_orb"
+        },
+        "E": {
+            "item": "mightymaking:earth_orb"
+        },
+        "W": {
+            "item": "mightymaking:water_orb"
+        }
+    },
+    "result": {
+        "item": "mightymaking:element_orb",
+        "count": 1
+    }
+}

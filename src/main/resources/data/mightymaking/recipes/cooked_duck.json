@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "mightymaking:raw_duck"
+  },
+  "result": "mightymaking:cooked_duck",
+  "experience": 0.37,
+  "cookingtime": 200
+}

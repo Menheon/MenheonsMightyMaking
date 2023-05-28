@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RSR",
+        " R ",
+        " E "
+    ],
+    "key": {
+        "S": {
+            "item": "mightymaking:gold_string"
+        },
+        "R": {
+            "item": "minecraft:iron_ingot"
+        },
+        "E": {
+            "item": "mightymaking:ender_diamond"
+        }
+    },
+    "result": {
+        "item": "mightymaking:ender_handle",
+        "count": 1
+    }
+}

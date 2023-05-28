@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mightymaking:ender_shard_block"
+        }
+    ],
+    "result": {
+        "item": "mightymaking:ender_shard",
+        "count": 9
+    }
+}

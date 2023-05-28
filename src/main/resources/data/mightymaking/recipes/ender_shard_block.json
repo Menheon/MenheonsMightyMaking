@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE",
+        "EEE",
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "mightymaking:ender_shard"
+        }
+    },
+    "result": {
+        "item": "mightymaking:ender_shard_block",
+        "count": 1
+    }
+}

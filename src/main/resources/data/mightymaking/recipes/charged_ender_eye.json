@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "BEB",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "mightymaking:ender_shard"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "item": "mightymaking:charged_ender_eye",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  R",
+        " R ",
+        "E  "
+    ],
+    "key": {
+        "R": {
+            "item": "mightymaking:ender_diamond"
+        },
+        "E": {
+            "item": "mightymaking:ender_handle"
+        }
+    },
+    "result": {
+        "item": "mightymaking:ender_sword",
+        "count": 1
+    }
+}
