@@ -27,7 +27,7 @@ displayName="Menheon's Mighty Making" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://www.youtube.com/channel/UCEdlWPQKkg5DGvQ5XWJtq0A?view_as=subscriber" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="assets/textures/mod_logo.png" #optional
+logoFile="assets/mightymaking/textures/mod_logo.png" #optional
 # A text field displayed in the mod UI
 credits="I'd like to thank my girlfriend for letting me play Minecraft" #optional
 # A text field displayed in the mod UI
