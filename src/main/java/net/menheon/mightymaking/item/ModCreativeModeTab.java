@@ -17,7 +17,7 @@ public class ModCreativeModeTab {
   public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
     MIGHTY_MAKING_TAB = event.registerCreativeModeTab(
         new ResourceLocation(MightyMaking.MOD_ID, "mighty_making_tab"),
-        builder -> builder.icon(() -> new ItemStack(ModItems.RAW_DUCK.get()))
+        builder -> builder.icon(() -> new ItemStack(ModItems.ELEMENT_ORB.get()))
             .title(Component.translatable("creativemodetab.mighty_making_tab")));
   }
 }
