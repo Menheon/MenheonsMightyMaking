@@ -1,0 +1,32 @@
+{
+	//Items
+	"item.mightymaking.ender_shard": "Ender Shard",
+	"item.mightymaking.ender_diamond": "Ender Diamond",
+	"item.mightymaking.charged_ender_eye": "Charged Eye of Ender",
+	"item.mightymaking.ender_handle": "Ender Handle",
+	"item.mightymaking.duck_feather": "Duck Feather",
+	"item.mightymaking.water_orb": "Orb of Water",
+	"item.mightymaking.fire_orb": "Orb of Fire",
+	"item.mightymaking.earth_orb": "Orb of Earth",
+	"item.mightymaking.air_orb": "Orb of Air",
+	"item.mightymaking.element_orb": "Orb of the Elements",
+	"item.mightymaking.gold_string": "Golden String",
+	
+	//Armor
+	"item.mightymaking.hermes_boots": "Boots of Hermes",
+	
+	//Food
+	"item.mightymaking.raw_duck": "Raw Duck",
+	"item.mightymaking.cooked_duck": "Cooked Duck",
+
+	//Creative Tab
+	"creativemodetab.mighty_making_tab": "Menheon's Mighty Making",
+	
+	//Tools
+	"item.mightymaking.ender_sword": "Ender Sword",
+	
+	//Advancements
+	"advancements.adventure.hermes_boots.title": "Finders Keepers!",
+    "advancements.adventure.hermes_boots.description": "Retrieve a pair of Boots of Hermes"
+	
+}
