@@ -38,6 +38,7 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.entity.player.Player;
+import net.menheon.mightymaking.sound.ModSounds;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.LivingEntity;
@@ -180,7 +181,7 @@ public class EnderGhoulEntity extends Monster implements GeoEntity, NeutralMob {
     if (this.tickCount >= this.lastStareSound + 400) {
       this.lastStareSound = this.tickCount;
       if (!this.isSilent()) {
-        this.level.playLocalSound(this.getX(), this.getEyeY(), this.getZ(), SoundEvents.ENDERMAN_STARE,
+        this.level.playLocalSound(this.getX(), this.getEyeY(), this.getZ(), ModSounds.ENDER_GHOUL_STARE.get(),
             this.getSoundSource(), 2.5F, 1.0F, false);
       }
     }
@@ -304,15 +305,15 @@ public class EnderGhoulEntity extends Monster implements GeoEntity, NeutralMob {
   }
 
   protected SoundEvent getAmbientSound() {
-    return this.isCreepy() ? SoundEvents.ENDERMAN_SCREAM : SoundEvents.ENDERMAN_AMBIENT;
+    return ModSounds.ENDER_GHOUL_AMBIENT.get();
   }
 
   protected SoundEvent getHurtSound(DamageSource p_32527_) {
-    return SoundEvents.ENDERMAN_HURT;
+    return ModSounds.ENDER_GHOUL_HURT.get();
   }
 
   protected SoundEvent getDeathSound() {
-    return SoundEvents.ENDERMAN_DEATH;
+    return ModSounds.ENDER_GHOUL_DEATH.get();
   }
 
   protected void dropCustomDeathLoot(DamageSource damageSource, int p_32498_, boolean p_32499_) {

@@ -1,0 +1,34 @@
+{
+    "ender_ghoul_ambient": {
+        "subtitle": "sounds.mightymaking.ender_ghoul_ambient",
+        "sounds": [
+            {
+                "name": "mightymaking:entity/ender_ghoul/ender_ghoul_ambient"
+            }
+        ]
+    },
+    "ender_ghoul_hurt": {
+        "subtitle": "sounds.mightymaking.ender_ghoul_hurt",
+        "sounds": [
+            {
+                "name": "mightymaking:entity/ender_ghoul/ender_ghoul_hurt"
+            }
+        ]
+    },
+    "ender_ghoul_death": {
+        "subtitle": "sounds.mightymaking.ender_ghoul_death",
+        "sounds": [
+            {
+                "name": "mightymaking:entity/ender_ghoul/ender_ghoul_death"
+            }
+        ]
+    },
+    "ender_ghoul_stare": {
+        "subtitle": "sounds.mightymaking.ender_ghoul_stare",
+        "sounds": [
+            {
+                "name": "mightymaking:entity/ender_ghoul/ender_ghoul_stare"
+            }
+        ]
+    }
+}

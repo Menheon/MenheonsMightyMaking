@@ -5,6 +5,7 @@ import net.menheon.mightymaking.entity.ModEntities;
 import net.menheon.mightymaking.entity.client.EnderGhoulRenderer;
 import net.menheon.mightymaking.item.ModCreativeModeTab;
 import net.menheon.mightymaking.item.ModItems;
+import net.menheon.mightymaking.sound.ModSounds;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class MightyMaking {
     ModItems.register(modEventBus);
     ModBlocks.register(modEventBus);
     ModEntities.register(modEventBus);
+    ModSounds.register(modEventBus);
 
     // Register the commonSetup method for modloading
     modEventBus.addListener(this::commonSetup);
