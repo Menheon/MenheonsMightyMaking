@@ -23,5 +23,16 @@
 	"advancements.adventure.hermes_boots.title": "Finders Keepers!",
     "advancements.adventure.hermes_boots.description": "Retrieve a pair of Boots of Hermes",
 
-	"block.mightymaking.ender_shard_block": "Block of Ender Shards"
+	"block.mightymaking.ender_shard_block": "Block of Ender Shards",
+
+	"entity.mightymaking.ender_ghoul": "Ender Ghoul",
+
+	"item.mightymaking.ender_ghoul_spawn_egg": "Ender Ghoul Spawn Egg",
+	"item.mightymaking.duck_spawn_egg": "Duck Spawn Egg",
+	"item.mightymaking.water_wizard_spawn_egg": "Water Wizard Spawn Egg",
+	"item.mightymaking.fire_wizard_spawn_egg": "Fire Wizard Spawn Egg",
+	"item.mightymaking.air_wizard_spawn_egg": "Air Wizard Spawn Egg",
+	"item.mightymaking.earth_wizard_spawn_egg": "Earth Wizard Spawn Egg",
+	
+	"death.attack.ender_ghoul": "%s was shown the true power of the End by an Ender Ghoul"
 }

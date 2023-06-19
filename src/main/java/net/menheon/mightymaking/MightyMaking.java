@@ -1,8 +1,11 @@
 package net.menheon.mightymaking;
 
 import net.menheon.mightymaking.block.ModBlocks;
+import net.menheon.mightymaking.entity.ModEntities;
+import net.menheon.mightymaking.entity.client.EnderGhoulRenderer;
 import net.menheon.mightymaking.item.ModCreativeModeTab;
 import net.menheon.mightymaking.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -22,6 +25,7 @@ public class MightyMaking {
 
     ModItems.register(modEventBus);
     ModBlocks.register(modEventBus);
+    ModEntities.register(modEventBus);
 
     // Register the commonSetup method for modloading
     modEventBus.addListener(this::commonSetup);
@@ -51,8 +55,10 @@ public class MightyMaking {
   // in the class annotated with @SubscribeEvent
   @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
   public static class ClientModEvents {
+
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
+      EntityRenderers.register(ModEntities.ENDER_GHOUL.get(), EnderGhoulRenderer::new);
     }
   }
 }

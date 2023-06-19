@@ -1,8 +1,10 @@
 package net.menheon.mightymaking.item;
 
 import net.menheon.mightymaking.MightyMaking;
+import net.menheon.mightymaking.entity.ModEntities;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Item.Properties;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +29,8 @@ public class ModItems {
   public static final RegistryObject<Item> ELEMENT_ORB = initializeItemRegistryObject("element_orb");
   public static final RegistryObject<Item> GOLD_STRING = initializeItemRegistryObject("gold_string");
   public static final RegistryObject<Item> HERMES_BOOTS = initializeItemRegistryObject("hermes_boots");
+  public static final RegistryObject<Item> ENDER_GHOUL_SPAWN_EGG = ITEMS.register("ender_ghoul_spawn_egg",
+      () -> new ForgeSpawnEggItem(ModEntities.ENDER_GHOUL, 000000, 4332651, new Properties()));
 
   private static final RegistryObject<Item> initializeItemRegistryObject(String name) {
     return ITEMS.register(name, () -> new Item(new Properties()));
