@@ -1,0 +1,19 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "plains",
+        "sunflower_plains",
+        "desert",
+        "the_end",
+        "end_highlands",
+        "end_midlands",
+        "end_barrens",
+        "small_end_islands"
+    ],
+    "spawners": {
+        "type": "mightymaking:ender_ghoul",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+    }
+}
